@@ -71,10 +71,10 @@ header .profile-image {
   height: 150px;
   border-radius: 50%;
   border: 2px solid #8fbc8f;
-  transition: all .5s;
+  transition: all 1s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scaleX(1.5) scaleY(1.5) rotate(360deg);
 }
 .tag {
   background-color: #222;
@@ -100,6 +100,25 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: #8fbc8f;
+}
+.videocard{
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 800px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+.videocard:hover {
+border-color: #8fbc8f;
+}
+
+.experience-image{
+
+  
 }
 
 ul.skills {
