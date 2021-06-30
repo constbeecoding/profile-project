@@ -375,7 +375,7 @@ a:hover {
 header {
   text-align: center;
   line-height: 1.5;
-  background: url("../../images/space.jpg") no-repeat top center;
+  background: url("../images/space.jpg") no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -535,10 +535,6 @@ ul.skills {
   padding: 5px 10px 10px 10px;
 }
 
-.nav a {
-  transition: all 0.5s;
-}
-
 .nav a:hover {
   color: #BEB4C7;
 }
@@ -595,19 +591,19 @@ a.social {
 }
 
 a.twitter {
-  background-image: url(../../images/twitter.svg);
+  background-image: url(../images/twitter.svg);
 }
 
 a.linkedin {
-  background-image: url(../../images/linkedin.svg);
+  background-image: url(../images/linkedin.svg);
 }
 
 a.github {
-  background-image: url(../../images/github.svg);
+  background-image: url(../images/github.svg);
 }
 
 a.ravelry {
-  background-image: url(../../images/ravelry.svg);
+  background-image: url(../images/ravelry.svg);
 }
 
 a.social:hover {
