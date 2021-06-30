@@ -1,0 +1,43 @@
+/* ============================================ */
+/*                CARD STYLES                  */
+/* ============================================ */
+$main-color: #BEB4C7;
+$black: #000;
+$white: #fff;
+$grey: #ccc;
+
+
+.card {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: $white;
+    border-bottom: 4px solid $grey;
+    border-radius: 6px;
+    transition: all .5s;
+  }
+  
+  .card:hover {
+    border-color: $main-color;
+  }
+
+  .videocard {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 800px;
+    text-align: center;
+    text-shadow: 2px 2px 5px $main-color;
+    background: $white;
+    border-bottom: 4px solid $grey;
+    border-radius: 6px;
+    transition: all .5s;
+  }
+  
+  .videocard:hover {
+    border-color: $main-color;
+  }
+
+  .videocard a:hover {
+    color: #6633ff;
+}
