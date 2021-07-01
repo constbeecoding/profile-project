@@ -3,7 +3,7 @@
 /* ============================================ */
 
 $main-color: #BEB4C7;
-$black: #000;
+$black: rgb(232, 232, 232);
 $white: #fff;
 $grey: #222;
 $accent-color: #8fbc8f;
@@ -20,7 +20,7 @@ body {
     text-align: center;
     font-family: 'Tahoma', sans-serif;
     color: $grey;
-    background: #f7f5f0;
+    background: $black;
 }
 
 .clearfix {
